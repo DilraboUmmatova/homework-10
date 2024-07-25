@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    color:inherit;
+
+
+}
+.container{
+ width: 85%;
+ max-width: 1440px;
+ margin:0 auto;
+
+}
+header{
+    background-color: black;
+}
+
+.header-nav{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:15px 0px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.header-list{
+    display: flex;
+    gap:15px;
+}
+
+.header-item{
+    margin:10px 0px;
+    color:beige;
+}
+.header-btns button{
+    background:transparent;
+    border: none;
+}
+.hero{
+    background: linear-gradient(rgba(15, 15, 15, 0.5),rgba(15, 15, 15, 0.5)
+    ),url(../imgs/hero.png);
+    height:500px;
+    background: cover;
+    background-position: center;
+}
+.hero-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    color:beige;
+    text-align: center;
+}
+.hero-card{
+    border:2px solid white;
+    padding: 40px; 
+margin-top: 180px;}
+.hero-desc{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.nextone-cards{
+    display: flex;
+    background: black;}
+    .nextone-card{
+        width:30px 30px 30px 30px;
+    }
+
+.nextwo-cards{
+display: flex;
+justify-content: space-around;
+     
+background: black;
+color: white;
+
+
+}
+.netwo-card-title{
+    
+}
+.nextwo-card-desc {
+    text-align: center;
+
+   
+
+
+}
+.nexthree-cards{ 
+    display: flex;
+    justify-content: center;
+    background:black;
+    color: beige;
+}
+.nexthree-title{
+    text-align: center;
+    margin:20px;
+    text-transform: uppercase;
+    text-decoration:underline 2px;
+}
+.nexthree-card{
+    justify-content: space-around;
+}
+.general-title{
+    margin:60px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.general-cards{
+    display: flex;
+    justify-content:space-around;
+    background: black;
+    color:azure;
+    border: 3px;
+}
